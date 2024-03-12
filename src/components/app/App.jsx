@@ -1,14 +1,13 @@
 import React from 'react';
-import { useMediaQuery } from 'react-responsive';
-import GlobalStyle from './styles';
+import GlobalStyle from './styles.js';
+import Nav from '../layout/nav/nav.jsx';
 import './styles.js'
 
 function App() {
-
   return (
     <>
       <GlobalStyle/>
-
+      <Nav/>
     </>
   )
 }
