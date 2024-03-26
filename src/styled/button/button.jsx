@@ -1,8 +1,10 @@
 import React from "react";
-import {Button} from "@mui/material";
+import {Button} from "./styles.js";
 
-export function MaterialButton() {
+export default function NavButton({children}) {
   return (
-
+    <Button type={"button"}>
+      {children}
+    </Button>
   )
 }
