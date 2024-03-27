@@ -9,7 +9,7 @@ export default function Nav() {
       <NavButton>
         Записаться
       </NavButton>
-      <MyNotesButton marginLeft={7}>
+      <MyNotesButton>
         Мои записи
       </MyNotesButton>
     </StyledNav>
