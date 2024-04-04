@@ -21,6 +21,9 @@ export default function SwiperSlider() {
         <SwiperSlide>
           <img src={MainSlide} alt="yes dance"></img>
         </SwiperSlide>
+        <SwiperSlide>
+          <img src={MainSlide} alt="yes dance"></img>
+        </SwiperSlide>
       </Swiper>
     </>
   );
