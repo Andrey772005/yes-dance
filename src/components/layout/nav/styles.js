@@ -10,6 +10,6 @@ export const StyledNav = styled.nav`
   background-color: ${defaultTheme.navBackgroundColorMobile};
   
   @media (min-width: 1200px){
-    background-color: blue;
+    background-color: ${defaultTheme.navBackgroundColorMobile};
   }  
 `;
