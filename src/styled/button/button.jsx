@@ -1,10 +1,11 @@
-import React from "react";
 import {Button} from "./styles.js";
 
-export default function NavButton({children}) {
+const NavButton = ({children, style, to, type}) => {
   return (
-    <Button type={"button"}>
-      {children}
-    </Button>
+      <Button type={"button"} style={style} to={to}>
+        {children}
+      </Button>
   )
 }
+
+export default NavButton

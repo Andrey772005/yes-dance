@@ -1,4 +1,3 @@
-import React from "react";
 import {MainPage} from "./styles.js";
 import SwiperSlider from "../../swiper/swiper.jsx";
 
