@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import {Button} from "./styles.js";
 
-const NavButton = ({children, style, to, type}) => {
+const NavButton = ({children, style, to, role}) => {
   return (
-      <Button type={"button"} style={style} to={to}>
+      <Button role={role} style={style} to={to}>
         {children}
       </Button>
   )
