@@ -11,7 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
-!/swiper/modules/pagination.css
+!node_modules/swiper/modules/pagination.css
 
 # Editor directories and files
 .vscode/*
