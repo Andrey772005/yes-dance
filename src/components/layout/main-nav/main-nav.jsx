@@ -1,10 +1,13 @@
 import { Navigation } from "./styles";
-import { MainNavigationButton } from "../../ui/main-navigation-button/navigation-button";
+import {MainButton, DirectionsButton} from '../../ui/main-navigation-button/styles'
 
 export default function MainNav() {
   return (
     <Navigation>
-      <MainNavigationButton role={"button"} text={"О студии"}/>
+      <MainButton role={"button"}>
+        О студии
+      </MainButton>
+      <DirectionsButton/>
     </Navigation>
   )
 }

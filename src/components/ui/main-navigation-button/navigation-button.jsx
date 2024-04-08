@@ -1,10 +1,10 @@
-import { MainButton } from "./styles";
+/* eslint-disable react/prop-types */
+// import { MainButton } from "./styles";
 
-export function MainNavigationButton({text, role, style, children}) {
-  return (
-    <MainButton role={role} style={style}>
-      {text}
-    </MainButton>
-
-  )
-}
+// export function MainNavigationButton({text, role, style}) {
+//   return (
+//     <MainButton role={role} style={style}>
+//       {text}
+//     </MainButton>
+//   )
+// }
