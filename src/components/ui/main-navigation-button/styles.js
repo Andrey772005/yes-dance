@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Button } from "../../../styled/button/styles";
 
-export const MainButton = styled(Button)`
+export const AboutButton = styled(Button)`
   grid-column: 1 / 3;
   grid-row: 1 / 2;
   width: clamp(321px, 50vw, 500px);
@@ -18,7 +18,7 @@ export const MainButton = styled(Button)`
   border-radius: 100px;
 `
 
-export const DirectionsButton = styled(Button)`
+export const NavigationButton = styled(Button)`
   grid-column: 1 / 2;
   grid-row: 2 / 3;
   width: clamp(157px, 24vw, 300px);

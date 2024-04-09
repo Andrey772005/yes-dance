@@ -6,10 +6,10 @@ import { BellComponent } from "../../ui/notofications/notifications.jsx";
 export default function UserNav() {
   return (
     <StyledNav>
-      <NavButton style={NavButton} role={"button"} to="/">
+      <NavButton role={"button"} to="/">
         Записаться
       </NavButton>
-      <NavButton style={NavButton} role={"button"} to="/">
+      <NavButton role={"button"} to="/">
         Мои записи
       </NavButton>
       <PhoneComponent role={"button"}/>
