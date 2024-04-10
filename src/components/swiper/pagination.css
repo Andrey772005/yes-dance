@@ -1,4 +1,4 @@
-:root {
+/* /* /* :root {
   /*
   --swiper-pagination-color: var(--swiper-theme-color);
   --swiper-pagination-left: auto;
@@ -18,7 +18,7 @@
   --swiper-pagination-bullet-horizontal-gap: 4px;
   --swiper-pagination-bullet-vertical-gap: 6px;
   */
-}
+
 .swiper-pagination {
   position: fixed;
   width: 70px;

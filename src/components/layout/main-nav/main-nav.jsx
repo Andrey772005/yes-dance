@@ -1,5 +1,7 @@
+import React from "react";
 import { Navigation } from "./styles";
-import { AboutButton, NavigationButton} from '../../ui/main-navigation-button/styles'
+import { AboutButton} from '../../ui/main-navigation-button/styles';
+import {navButtons} from '../../ui/main-navigation-button/styles.js'
 
 export default function MainNav() {
   return (
@@ -7,12 +9,19 @@ export default function MainNav() {
       <AboutButton role={"button"}>
         О студии
       </AboutButton>
-      <NavigationButton role={"button"}>
-        Направления
-      </NavigationButton>
-      <NavigationButton style={{gridColumn: 2 / 3, gridRow: 2 / 3}}>
-        Преподаватели
-      </NavigationButton>
+      <NavButtonList/> 
     </Navigation>
   )
+}
+
+const NavButtonList = () => {
+  return (
+    <>
+      {navButtons.map((button) => (
+        <button key={button.id} style={button.style}>
+          {button.text}
+        </button>
+      ))}
+    </>
+  );
 }
