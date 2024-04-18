@@ -9,7 +9,10 @@ export default function MainNav() {
       <AboutButton role={"button"}>
         О студии
       </AboutButton>
-      <NavButtonList/> 
+      <NavButtonList/>
+      <AboutButton role={"button"}>
+        О нас
+      </AboutButton> 
     </Navigation>
   )
 }
