@@ -55,7 +55,10 @@ export const navButtons = [
       backgroundColor: '#E20055',
       color: '#fff',
       border: 'none',
-      borderRadius: '100px'
+      borderRadius: '100px',
+      '&:hover': {
+        backgroundColor: '#fff',
+      }
     }
   },
   {
