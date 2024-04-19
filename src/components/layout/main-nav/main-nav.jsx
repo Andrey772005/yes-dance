@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { Navigation } from "./styles";
 import { AboutButton} from '../../ui/main-navigation-button/styles';
@@ -10,9 +11,6 @@ export default function MainNav() {
         О студии
       </AboutButton>
       <NavButtonList/>
-      <AboutButton role={"button"}>
-        О нас
-      </AboutButton> 
     </Navigation>
   )
 }
@@ -21,7 +19,7 @@ const NavButtonList = () => {
   return (
     <>
       {navButtons.map((button) => (
-        <button key={button.id} style={button.style}>
+        <button key={button.id} style={button.style} role={"button"}>
           {button.text}
         </button>
       ))}
