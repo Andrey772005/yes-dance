@@ -81,6 +81,48 @@ export const navButtons = [
       border: 'none',
       borderRadius: '100px'
     }
+  },
+  {
+    id: 2,
+    text: 'Цены',
+    style: {
+      gridColumn: '1 / 2',
+      gridRow: '3 / 4',
+      width: 'clamp(157px, 24vw, 300px)',
+      height: '40px',
+      margin: '0',
+      justifySelf: 'end',
+      cursor: 'pointer',
+      fontFamily: '"Roboto", sans-serif',
+      fontSize: '14px',
+      fontWeight: '500',
+      textAlign: 'center',
+      backgroundColor: '#E20055',
+      color: '#fff',
+      border: 'none',
+      borderRadius: '100px'
+    }
+  },
+  {
+    id: 3,
+    text: 'Контакты',
+    style: {
+      gridColumn: '2 / 3',
+      gridRow: '3 / 4',
+      width: 'clamp(157px, 24vw, 300px)',
+      height: '40px',
+      margin: '0',
+      justifySelf: 'start',
+      cursor: 'pointer',
+      fontFamily: '"Roboto", sans-serif',
+      fontSize: '14px',
+      fontWeight: '500',
+      textAlign: 'center',
+      backgroundColor: '#E20055',
+      color: '#fff',
+      border: 'none',
+      borderRadius: '100px'
+    }
   }
 ]
 
