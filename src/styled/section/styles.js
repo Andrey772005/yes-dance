@@ -6,4 +6,5 @@ export const Section = styled.section`
   min-width: 236px;
   height: 41px;
   margin-top: 12px;
+  margin-bottom: 12px;
 `

@@ -9,7 +9,7 @@ export const StyledNav = styled.nav`
   height: 51px;
   background-color: ${defaultTheme.navBackgroundColorMobile};
   
-  @media (min-width: 1200px){
+  /* @media (min-width: 1200px){
     background-color: ${defaultTheme.navBackgroundColorMobile};
-  }  
+  }   */
 `;

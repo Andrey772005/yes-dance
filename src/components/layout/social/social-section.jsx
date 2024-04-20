@@ -1,12 +1,15 @@
 import React from 'react';
-import { Section } from '../../../styled/section/styles';
-import './styles.css'
+import { Social } from './styles.js';
+import './styles.css';
+import Vkontact from '../../../assets/vkontakte.svg'
+import Telegram from '../../../assets/tg.svg'
 
 export const SocialSection = () => {
   return (
-    <Section>
+    <Social>
       <h3 className="question">Есть вопрос&#63; Напиши нам&#46;</h3>
-      <img role={"button"} />
-    </Section>
+      <img className="vkontakte" role={"button"} src={Vkontact}/>
+      <img className="telegram" role={"button"} src={Telegram}/>
+    </Social>
   )
 }

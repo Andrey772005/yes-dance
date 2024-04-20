@@ -7,7 +7,7 @@ export const Navigation = styled.nav`
   row-gap: 6px;
   column-gap: 8px;
   min-width: 321px;
-  margin-top: 12px;
+  margin: 0;
   align-items: center;
   justify-items: center;
 `;
