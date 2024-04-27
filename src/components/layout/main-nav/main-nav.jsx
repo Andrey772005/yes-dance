@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { Navigation } from "./styles";
-import { AboutButton} from '../../ui/main-navigation-button/styles';
-import {navButtons} from '../../ui/main-navigation-button/styles.js'
+import { AboutButton} from './styles.js';
+import {navButtons} from './styles.js'
 
 export default function MainNav() {
   return (
