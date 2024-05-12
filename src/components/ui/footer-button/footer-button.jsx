@@ -1,10 +1,11 @@
 import React from 'react';
 import './styles.css';
 
-export const FooterButton = ({className, to, imageSrc, role, text}) => {
+export const FooterButton = ({to, imageSrc, style, text}) => {
   return (
-    <button className={className} to={to} src={imageSrc} role={role}>
-      <span className={className}>
+    <button className='footer-button' to={to} style={style}>
+      <img className='icon' src={imageSrc}/>
+      <span className='label'>
         {text}
       </span>
     </button>

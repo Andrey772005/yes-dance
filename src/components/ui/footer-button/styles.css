@@ -1,9 +1,27 @@
-.footer-main {
+.footer-button {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   grid-row: 1 / 2;
+  margin: 0;
+  border: none;
+  background-color: #f7f3f3;
   width: 75px;
   height: 50px;
   align-items: center;
   cursor: pointer;
+}
+
+.icon {
+  align-self: center;
+  width: 22px;
+  height: 22px;
+}
+
+.label {
+  margin-top: 5px;
+  font-size: 10px;
+  font-weight: 500;
+  color: #070707;
 }
