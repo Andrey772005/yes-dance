@@ -2,7 +2,8 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
 import GlobalStyle from './styles.js';
-import Main from "../pages/main/main-page.jsx";
+import Main from '../pages/main/main-page.jsx';
+import  AboutPage  from '../pages/about/about-page.jsx';
 import { AppRoute } from '../../theme/const.js';
 import './styles.js'
 
@@ -45,7 +46,8 @@ function App() {
       <Adaptive>
         <BrowserRouter>
           <Routes>
-            <Route path={AppRoute.MAIN} element={<Main/>}/>
+            <Route index path={AppRoute.MAIN} element={<Main/>}/>
+            <Route path={AppRoute.ABOUT} element={<AboutPage/>}/>
           </Routes>
         </BrowserRouter>
       </Adaptive>
