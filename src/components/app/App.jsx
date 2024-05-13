@@ -1,8 +1,9 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
 import GlobalStyle from './styles.js';
-import UserNav from '../layout/nav/nav.jsx';
 import Main from "../pages/main/main-page.jsx";
+import { AppRoute } from '../../theme/const.js';
 import './styles.js'
 
 
@@ -25,7 +26,6 @@ const Adaptive = () => {
   return (
     <>
       <Mobile>
-        <UserNav/>
         <Main/>
       </Mobile>
       <Tablet>
@@ -42,7 +42,13 @@ function App() {
   return (
     <>
       <GlobalStyle/>
-      <Adaptive/>
+      <Adaptive>
+        <BrowserRouter>
+          <Routes>
+            <Route path={AppRoute.MAIN} element={<Main/>}/>
+          </Routes>
+        </BrowserRouter>
+      </Adaptive>
     </>
   )
 }

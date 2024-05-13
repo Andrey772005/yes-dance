@@ -3,7 +3,7 @@ import NavButton from "../../../styled/button/button";
 import {PhoneComponent} from "../../ui/phone/phone.jsx";
 import { BellComponent } from "../../ui/notofications/notifications.jsx";
 
-export default function UserNav() {
+export function UserNav() {
   return (
     <StyledNav>
       <NavButton role={"button"} to="/">
