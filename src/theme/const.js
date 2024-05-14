@@ -1,4 +1,4 @@
 export const AppRoute = {
-  MAIN: '/main',
-  ABOUT: '/about'
+  MAIN: './main',
+  ABOUT: './about'
 }

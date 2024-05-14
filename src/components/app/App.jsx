@@ -4,7 +4,7 @@ import { useMediaQuery } from 'react-responsive';
 import GlobalStyle from './styles.js';
 import Main from '../pages/main/main-page.jsx';
 import  AboutPage  from '../pages/about/about-page.jsx';
-import { AppRoute } from '../../theme/const.js';
+// import { AppRoute } from '../../theme/const.js';
 import './styles.js'
 
 
@@ -46,8 +46,9 @@ function App() {
       <Adaptive>
         <BrowserRouter>
           <Routes>
-            <Route index path={AppRoute.MAIN} element={<Main/>}/>
-            <Route path={AppRoute.ABOUT} element={<AboutPage/>}/>
+          <Route path='/' element={<Main/>}>
+            <Route path="/about" element={<AboutPage/>}/>
+          </Route>
           </Routes>
         </BrowserRouter>
       </Adaptive>
